@@ -14,18 +14,16 @@ This project applies **Machine Learning** techniques to predict match outcomes f
 - Predict future matches with class probabilities.
 
 ## Repository Structure
-"""
-mermaid
+```mermaid
 graph TD
-    A[LigaEspanola-ML]
-    A --> B[notebooks]
+    A[LigaEspanola-ML] --> B[notebooks]
     B --> B1[ML_LigaEspanola.ipynb]
     A --> C[outputs]
     C --> C1[confusion_matrix.png]
     C --> C2[xgb_model.pkl]
     A --> D[requirements.txt]
     A --> E[README.md]
-"""
+```
 
 ## Results
 - Random Forest: ~XX% accuracy  
