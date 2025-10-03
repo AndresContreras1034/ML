@@ -17,7 +17,8 @@ This project applies **Machine Learning** techniques to predict match outcomes f
 """
 mermaid
 graph TD
-    A[LigaEspanola-ML] --> B[notebooks]
+    A[LigaEspanola-ML]
+    A --> B[notebooks]
     B --> B1[ML_LigaEspanola.ipynb]
     A --> C[outputs]
     C --> C1[confusion_matrix.png]
